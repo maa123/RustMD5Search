@@ -74,3 +74,12 @@ fn main(){
 	
 	println!("結果:{}", res);
 }
+
+#[cfg(test)]
+mod tests {
+	use super::*;
+	#[test]
+	fn searchash() {
+		assert_eq!("abcd", search_hash("1", arr_from_hash("2956486c175b34bfcca6973bf51b8d2a")));
+	}
+}
