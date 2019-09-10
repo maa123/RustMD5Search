@@ -1,0 +1,7 @@
+[package]
+name = "RustMD5Search"
+version = "1.0.0"
+authors = ["maa123"]
+
+[dependencies]
+rust-crypto = "*"
